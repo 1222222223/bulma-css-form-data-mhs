@@ -1,0 +1,38 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(0,0,10,0.3),url(img/bg.jpg);
+    background-color: rgb(224, 218, 125);
+    background-image: transparen;
+}
+h2{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 0 20px;
+}
+hr{
+    color: black;
+}
+.container {
+    width: 100px;
+    height: 100%;
+    margin-top: 10px;
+    margin: 0 10 0 10px auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 500px;
+    margin-right: 100px;
+}
+.submit {
+    margin-bottom: 10px;
+    background: #fff;
+}
+input{
+    box-shadow: none;
+}
